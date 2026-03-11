@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{341EF3A8-D115-0311-CC9C-FA69ADAAB638}|NOPLP-API\\NOPLP-API.csproj|c:\\users\\matte\\source\\repos\\noplp-api\\noplp-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{341EF3A8-D115-0311-CC9C-FA69ADAAB638}|NOPLP-API\\NOPLP-API.csproj|solutionrelative:noplp-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341EF3A8-D115-0311-CC9C-FA69ADAAB638}|NOPLP-API\\NOPLP-API.csproj|c:\\users\\matte\\source\\repos\\noplp-api\\noplp-api\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341EF3A8-D115-0311-CC9C-FA69ADAAB638}|NOPLP-API\\NOPLP-API.csproj|solutionrelative:noplp-api\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341EF3A8-D115-0311-CC9C-FA69ADAAB638}|NOPLP-API\\NOPLP-API.csproj|c:\\users\\matte\\source\\repos\\noplp-api\\noplp-api\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341EF3A8-D115-0311-CC9C-FA69ADAAB638}|NOPLP-API\\NOPLP-API.csproj|solutionrelative:noplp-api\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341EF3A8-D115-0311-CC9C-FA69ADAAB638}|NOPLP-API\\NOPLP-API.csproj|c:\\users\\matte\\source\\repos\\noplp-api\\noplp-api\\entities\\songtheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341EF3A8-D115-0311-CC9C-FA69ADAAB638}|NOPLP-API\\NOPLP-API.csproj|solutionrelative:noplp-api\\entities\\songtheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341EF3A8-D115-0311-CC9C-FA69ADAAB638}|NOPLP-API\\NOPLP-API.csproj|c:\\users\\matte\\source\\repos\\noplp-api\\noplp-api\\data\\noplpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341EF3A8-D115-0311-CC9C-FA69ADAAB638}|NOPLP-API\\NOPLP-API.csproj|solutionrelative:noplp-api\\data\\noplpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341EF3A8-D115-0311-CC9C-FA69ADAAB638}|NOPLP-API\\NOPLP-API.csproj|c:\\users\\matte\\source\\repos\\noplp-api\\noplp-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341EF3A8-D115-0311-CC9C-FA69ADAAB638}|NOPLP-API\\NOPLP-API.csproj|solutionrelative:noplp-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\NOPLP-API\\appsettings.json",
+              "RelativeDocumentMoniker": "NOPLP-API\\appsettings.json",
+              "ToolTip": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\NOPLP-API\\appsettings.json",
+              "RelativeToolTip": "NOPLP-API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-11T00:24:10.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\NOPLP-API\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "NOPLP-API\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\NOPLP-API\\Controllers\\GameController.cs",
+              "RelativeToolTip": "NOPLP-API\\Controllers\\GameController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwEwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:10:33.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\NOPLP-API\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "NOPLP-API\\Services\\GameService.cs",
+              "ToolTip": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\NOPLP-API\\Services\\GameService.cs",
+              "RelativeToolTip": "NOPLP-API\\Services\\GameService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwD0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T12:49:38.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SongTheme.cs",
+              "DocumentMoniker": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\NOPLP-API\\Entities\\SongTheme.cs",
+              "RelativeDocumentMoniker": "NOPLP-API\\Entities\\SongTheme.cs",
+              "ToolTip": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\NOPLP-API\\Entities\\SongTheme.cs",
+              "RelativeToolTip": "NOPLP-API\\Entities\\SongTheme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:02:02.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NoplpDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\NOPLP-API\\Data\\NoplpDbContext.cs",
+              "RelativeDocumentMoniker": "NOPLP-API\\Data\\NoplpDbContext.cs",
+              "ToolTip": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\NOPLP-API\\Data\\NoplpDbContext.cs",
+              "RelativeToolTip": "NOPLP-API\\Data\\NoplpDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwCYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:39:10.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\NOPLP-API\\Program.cs",
+              "RelativeDocumentMoniker": "NOPLP-API\\Program.cs",
+              "ToolTip": "C:\\Users\\matte\\source\\repos\\NOPLP-API\\NOPLP-API\\Program.cs",
+              "RelativeToolTip": "NOPLP-API\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T17:54:24.634Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
