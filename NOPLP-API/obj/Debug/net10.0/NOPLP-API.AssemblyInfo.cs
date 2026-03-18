@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NOPLP-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a0409ee3c2ed2b779dc92bac65f79e21144442e")]
 [assembly: System.Reflection.AssemblyProductAttribute("NOPLP-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NOPLP-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,18 +13,6 @@
     }
   ],
   "paths": {
-    "/Game/random": {
-      "get": {
-        "tags": [
-          "Game"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/Game/newgame": {
       "get": {
         "tags": [

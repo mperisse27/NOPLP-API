@@ -8,15 +8,5 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "NOPLP_API.Controllers.GameController",
-    "Method": "Random",
-    "RelativePath": "Game/random",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
   }
 ]

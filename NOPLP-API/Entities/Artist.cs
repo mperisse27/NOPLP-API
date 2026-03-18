@@ -4,6 +4,6 @@
     {
         public Guid Id { get; set; }
         public required string Name { get; set; }
-        public ICollection<SongTheme> SongThemes { get; set; } = new List<SongTheme>();
+        public ICollection<Song> Songs { get; set; } = new List<Song>();
     }
 }
