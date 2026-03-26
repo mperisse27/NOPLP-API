@@ -8,6 +8,7 @@ namespace NOPLP_API.Services
     {
         async public Task<Game> GetNewGame(NoplpDbContext context)
         {
+            var random = new Random();
             var themeCount = await context.Themes.CountAsync();
             var artistCount = await context.Artists.Include(a => a.Songs).Where(a => a.Songs.Count > 1).CountAsync();
             var usedYearCat = false;
@@ -15,11 +16,12 @@ namespace NOPLP_API.Services
             ICollection<GameCategory> categories = new List<GameCategory>();
             while (categories.Count < 5)
             {
-                var themeType = new Random().NextDouble();
+                var themeType = random.NextDouble();
                 if (themeType < 0.15)
                 {
-                    var randomIndex = new Random().Next(artistCount);
-                    var artist = await context.Artists.Include(a => a.Songs).Where(a => a.Songs.Count > 1)
+                    var randomIndex = random.Next(artistCount);
+                    var artist = await context.Artists.Include(a => a.Songs)
+                        .Where(a => a.Songs.Count > 1)
                         .Skip(randomIndex)
                         .FirstOrDefaultAsync();
 
@@ -31,6 +33,9 @@ namespace NOPLP_API.Services
                     var songs = await context.Songs
                         .Where(s => s.ArtistId == artist.Id)
                         .ToListAsync();
+                    songs = songs
+                        .OrderBy(s => random.Next())
+                        .ToList();
                     usedThemes.Add(artist.Id);
                     categories.Add(
                         new(
@@ -53,13 +58,16 @@ namespace NOPLP_API.Services
                         "Les années 2000",
                         "Les années 2010",
                     ];
-                    var randomIndex = new Random().Next(yearCategories.Count);
+                    var randomIndex = random.Next(yearCategories.Count);
                     var minYear = 1970 + randomIndex * 10;
 
                     var songs = await context.Songs
                         .Where(s => s.Year >= minYear && s.Year < minYear + 10)
                         .Include(s => s.Artist)
                         .ToListAsync();
+                    songs = songs
+                        .OrderBy(s => random.Next())
+                        .ToList();
                     usedYearCat = true;
                     usedThemes.Add(new Guid());
                     categories.Add(
@@ -75,7 +83,7 @@ namespace NOPLP_API.Services
                 }
                 else
                 {
-                    var randomIndex = new Random().Next(themeCount);
+                    var randomIndex = random.Next(themeCount);
 
                     var theme = await context.Themes
                         .Skip(randomIndex)
@@ -92,7 +100,9 @@ namespace NOPLP_API.Services
                         .Include(s => s.SongThemes)
                             .ThenInclude(st => st.Theme)
                         .ToListAsync();
-
+                    songs = songs
+                        .OrderBy(s => random.Next())
+                        .ToList();
                     usedThemes.Add(theme.Id);
                     categories.Add(
                         new(
