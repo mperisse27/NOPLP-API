@@ -20,8 +20,8 @@ namespace NOPLP_API.Controllers
         [HttpGet("newgame")]
         public async Task<IActionResult> GetNewGame()
         {
-            var gameService = new GameService();
-            return Ok(await gameService.GetNewGame(_context));
+            var gameService = new GameService(_context);
+            return Ok(await gameService.GetNewGame());
         }
     }
 }

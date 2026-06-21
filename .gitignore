@@ -1,3 +1,6 @@
 appsetings.json
 /NOPLP-API/appsettings.Development.json
 /NOPLP-API/appsettings.json
+.vs/**/*
+/NOPLP-API/bin/**/*
+/NOPLP-API/obj/**/*
