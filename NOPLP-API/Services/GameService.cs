@@ -57,6 +57,16 @@ namespace NOPLP_API.Services
                     .ToListAsync();
                 while (songs.Count < 2)
                 {
+                    randomIndex = random.Next(themeCount);
+
+                    theme = await context.Themes
+                    .Skip(randomIndex)
+                    .FirstOrDefaultAsync();
+
+                    if (theme == null || usedThemes.Contains(theme.Id))
+                    {
+                        continue;
+                    }
                     songs = await context.Songs
                     .Where(s => s.SongThemes.Any(st => st.ThemeId == theme.Id))
                     .Include(s => s.Artist)
